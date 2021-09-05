@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CardView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eqE-PS-NXI" customClass="CardView" customModule="CardView" customModuleProvider="target">
+                                <rect key="frame" x="20" y="64" width="374" height="161"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dih-7C-4G6">
+                                        <rect key="frame" x="20" y="69" width="334" height="72"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="Click on Me">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PH6-5h-VYm">
+                                        <rect key="frame" x="10" y="10" width="354" height="39"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Dih-7C-4G6" secondAttribute="trailing" constant="20" id="5h7-4z-gbN"/>
+                                    <constraint firstItem="PH6-5h-VYm" firstAttribute="leading" secondItem="eqE-PS-NXI" secondAttribute="leading" constant="10" id="Zl4-dJ-H02"/>
+                                    <constraint firstItem="Dih-7C-4G6" firstAttribute="leading" secondItem="eqE-PS-NXI" secondAttribute="leading" constant="20" id="b6t-tU-D38"/>
+                                    <constraint firstItem="Dih-7C-4G6" firstAttribute="top" secondItem="PH6-5h-VYm" secondAttribute="bottom" constant="20" id="blu-we-abt"/>
+                                    <constraint firstAttribute="trailing" secondItem="PH6-5h-VYm" secondAttribute="trailing" constant="10" id="ekl-pS-SJP"/>
+                                    <constraint firstItem="PH6-5h-VYm" firstAttribute="top" secondItem="eqE-PS-NXI" secondAttribute="top" constant="10" id="mKB-10-e43"/>
+                                    <constraint firstAttribute="bottom" secondItem="Dih-7C-4G6" secondAttribute="bottom" constant="20" id="qnD-hM-luL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hce-MD-5o2" customClass="CardView" customModule="CardView" customModuleProvider="target">
+                                <rect key="frame" x="20" y="275" width="374" height="161"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWQ-Gw-8Ex">
+                                        <rect key="frame" x="20" y="69" width="334" height="72"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="Click on Me">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="btY-ka-YT8">
+                                        <rect key="frame" x="10" y="10" width="354" height="39"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gWQ-Gw-8Ex" secondAttribute="trailing" constant="20" id="9J4-Rg-uQc"/>
+                                    <constraint firstItem="gWQ-Gw-8Ex" firstAttribute="leading" secondItem="hce-MD-5o2" secondAttribute="leading" constant="20" id="RWi-XE-AkT"/>
+                                    <constraint firstAttribute="bottom" secondItem="gWQ-Gw-8Ex" secondAttribute="bottom" constant="20" id="e3x-gb-zgA"/>
+                                    <constraint firstItem="gWQ-Gw-8Ex" firstAttribute="top" secondItem="btY-ka-YT8" secondAttribute="bottom" constant="20" id="hHD-hp-xWS"/>
+                                    <constraint firstItem="btY-ka-YT8" firstAttribute="top" secondItem="hce-MD-5o2" secondAttribute="top" constant="10" id="j7s-hL-Ybo"/>
+                                    <constraint firstItem="btY-ka-YT8" firstAttribute="leading" secondItem="hce-MD-5o2" secondAttribute="leading" constant="10" id="jQj-hv-hMs"/>
+                                    <constraint firstAttribute="trailing" secondItem="btY-ka-YT8" secondAttribute="trailing" constant="10" id="trN-E6-JNa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hce-MD-5o2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lld-gj-h2d"/>
+                            <constraint firstItem="hce-MD-5o2" firstAttribute="top" secondItem="eqE-PS-NXI" secondAttribute="bottom" constant="50" id="QL7-ie-duN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eqE-PS-NXI" secondAttribute="trailing" constant="20" id="TBh-NF-ky4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hce-MD-5o2" secondAttribute="trailing" constant="20" id="bBc-kQ-9bi"/>
+                            <constraint firstItem="eqE-PS-NXI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="dHB-bO-1OO"/>
+                            <constraint firstItem="eqE-PS-NXI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hz7-Fz-kIU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="87.723214285714278"/>
+        </scene>
+    </scenes>
+</document>
